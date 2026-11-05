@@ -1,3 +1,5 @@
 [
-  { "codename": "鶴", "batch": 1, "status": "", "photo": "", "bio": "" }
+  { "codename": "鶴", "batch": 1, "status": "", "photo": "", "bio": "" },
+  { "codename": "蛇", "batch": 1, "status": "", "photo": "", "bio": "" },
+  { "codename": "羊", "batch": 2, "status": "", "photo": "", "bio": "" }
 ]

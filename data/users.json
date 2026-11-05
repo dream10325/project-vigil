@@ -5,5 +5,19 @@
     "batch": 1,
     "salt": "c3b95c554772aaba342198f77b82abad",
     "hash": "4b2e0101ab28c16fda85df171d7c6780890997c3a390e4793977cde0cb844cdd"
+  },
+  {
+    "id": "Goat",
+    "codename": "羊",
+    "batch": 2,
+    "salt": "b1e9da3a99eef5fe0269719a33305903",
+    "hash": "c79a8c23e578c3f0b423d767214de9817595c3f650c259b389180146e0acf1c1"
+  },
+  {
+    "id": "Snake",
+    "codename": "蛇",
+    "batch": 1,
+    "salt": "9944a18f4bee9a452ac02b119bee6366",
+    "hash": "8c95142596a74392929b5fba6bac81e470a9a3b036e5483387e197b6dae6ff2c"
   }
 ]
