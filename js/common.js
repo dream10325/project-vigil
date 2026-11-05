@@ -121,13 +121,12 @@
       return (m.to || []).some(function (t) { return keys.indexOf(t) > -1; });
     });
   }
-  /* ===== 相簿資料夾（相簿頁與相片頁共用）===== */
   function folderUnlockedList(s) {
     try { var a = JSON.parse(sget('vigil.albumunlock.' + s.id) || '[]'); return Array.isArray(a) ? a : []; } catch (e) { return []; }
   }
   function folderOpen(s, f) {
     if (!f || !f.lock) return true;
-    if (s.batch === 0) return true;   /* 第 0 批免密碼 */
+    if (s.batch === 0) return true;
     return folderUnlockedList(s).indexOf(f.id) > -1;
   }
   function folderGate(s, f, onOpen) {
