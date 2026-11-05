@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- 你好:D 此為Minecraft角色扮演的劇情網站。劇情不需要你們翻程式碼，請不要檢視原始碼，以免影響遊戲體驗。 -->
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>登入 - Project Vigil</title>
+<link rel="stylesheet" href="css/style.css?v=5">
+</head>
+<body>
+<header id="site-header" class="site-header"></header>
+<main id="main" class="wrap">
+<section class="login-card">
+  <h1>登入</h1>
+  <p class="muted">請輸入您的代號與密碼以登入。</p>
+  <form id="login-form" autocomplete="off">
+    <label for="codename">代號</label>
+    <input id="codename" name="codename" type="text" required autocapitalize="off" autocomplete="username">
+    <label for="password">密碼</label>
+    <input id="password" name="password" type="password" required autocomplete="current-password">
+    <p id="login-msg" class="notice" role="alert" hidden></p>
+    <button type="submit" class="btn">登入</button>
+  </form>
+</section>
+</main>
+<footer id="site-footer" class="site-footer"></footer>
+<script src="js/common.js?v=5"></script>
+<script src="js/login.js?v=5"></script>
+</body>
+</html>

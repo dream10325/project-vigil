@@ -1,0 +1,22 @@
+{
+  "1": {
+    "hint": "第1批已加密",
+    "salt": "fbf50783a694d947a87e629dfe1d9cd8",
+    "hash": "b77123703761f61a792b42a0694bf4a50f5198c71630210fa5e7451f539d496e"
+  },
+  "2": {
+    "hint": "第2批已加密",
+    "salt": "383baa409b8cc56ec10bb4d133295a90",
+    "hash": "b15bb043218021bcd69339eb53d6f7788c6d2c8c57f6d3ef77884fc0618b6adb"
+  },
+  "3": {
+    "hint": "第3批已加密",
+    "salt": "ee3847e17bc76f6225ff2045d81db6a5",
+    "hash": "7654181170ae9c65ece1ecbb324d59bafd2193d6edf888b1e25665508dd61b39"
+  },
+  "4": {
+    "hint": "第4批已加密",
+    "salt": "c4e86d154ccbec226608ea49efd0b0bc",
+    "hash": "dd52bbc43e5947d4eaed443d796a168544ea13086eb142150e3e74e0a24ca003"
+  }
+}
