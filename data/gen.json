@@ -1,11 +1,11 @@
 [
-  { "codename": "鶴", "batch": 1, "status": "", "photo": "", "bio": "" },
-  { "codename": "蛇", "batch": 1, "status": "", "photo": "", "bio": "" },
-  { "codename": "羊", "batch": 2, "status": "", "photo": "", "bio": "" },
-  { "codename": "狸", "batch": 2, "status": "", "photo": "", "bio": "" },
-  { "codename": "狼", "batch": 2, "status": "", "photo": "", "bio": "" },
-  { "codename": "兔", "batch": 3, "status": "", "photo": "", "bio": "" },
-  { "codename": "鴉", "batch": 3, "status": "", "photo": "", "bio": "" },
-  { "codename": "魟", "batch": 3, "status": "", "photo": "", "bio": "" },
-  { "codename": "貘", "batch": 4, "status": "", "photo": "", "bio": "" }
+  { "codename": "鶴", "batch": 1, "status": "在職", "photo": "", "bio": "" },
+  { "codename": "蛇", "batch": 1, "status": "在職", "photo": "", "bio": "" },
+  { "codename": "羊", "batch": 2, "status": "在職", "photo": "", "bio": "" },
+  { "codename": "狸", "batch": 2, "status": "在職", "photo": "", "bio": "" },
+  { "codename": "狼", "batch": 2, "status": "在職", "photo": "images/gen/wolf_icon.png", "bio": "" },
+  { "codename": "兔", "batch": 3, "status": "在職", "photo": "", "bio": "" },
+  { "codename": "鴉", "batch": 3, "status": "在職", "photo": "", "bio": "" },
+  { "codename": "魟", "batch": 3, "status": "在職", "photo": "", "bio": "" },
+  { "codename": "貘", "batch": 4, "status": "在職", "photo": "", "bio": "" }
 ]
