@@ -54,6 +54,7 @@
       if (!m) { showEmpty(); return; }
       if (push) history.pushState({ m: id }, '', 'mail.html?m=' + encodeURIComponent(id));
       V.markRead(s, id);
+      V.refreshBadge();
       if (read.indexOf(id) === -1) read.push(id);
       Object.keys(items).forEach(function (k) { items[k].classList.toggle('active', k === id); });
       paintItem(m);

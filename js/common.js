@@ -189,6 +189,7 @@
       var wrap = h('div', { class: 'wrap' });
       NAV.forEach(function (n) {
         var a = h('a', { href: n[0], text: n[1] });
+        if (n[2] === 'mail') a.appendChild(h('span', { class: 'badge', id: 'nav-mail-badge', hidden: '' }));
         if (n[2] === active || (active === 'photo' && n[2] === 'album')) a.setAttribute('aria-current', 'page');
         wrap.appendChild(a);
       });
@@ -205,13 +206,28 @@
     ]));
   }
 
+  var mailCache = null;
+  function refreshBadge() {
+    var el = document.getElementById('nav-mail-badge');
+    var s = getSession();
+    if (!el || !s) return;
+    function paint(all) {
+      var read = getRead(s);
+      var n = visibleMail(all, s).filter(function (m) { return read.indexOf(m.id) === -1; }).length;
+      if (n > 0) { el.textContent = String(n); el.setAttribute('title', '未讀信件 ' + n + ' 封'); el.hidden = false; }
+      else { el.textContent = ''; el.hidden = true; }
+    }
+    if (mailCache) { paint(mailCache); return; }
+    fetchJSON('data/mail.json').then(function (all) { mailCache = all || []; paint(mailCache); }).catch(function () {});
+  }
+
   function init(page, opts) {
     var auth = !(opts && opts.auth === false);
     var s = getSession();
     if (auth && !s) { location.replace('index.html'); return null; }
     renderHeader(page, s);
     renderFooter();
-    if (auth && s) refreshSession(s);
+    if (auth && s) { refreshSession(s); refreshBadge(); }
     return s;
   }
 
@@ -229,6 +245,6 @@
     init: init, getSession: getSession, setSession: setSession, logout: logout,
     h: h, fetchJSON: fetchJSON, sha256Hex: sha256Hex, richText: richText, paragraphs: paragraphs,
     showError: showError, param: param, sget: sget, sset: sset,
-    visibleMail: visibleMail, getRead: getRead, markRead: markRead
+    visibleMail: visibleMail, getRead: getRead, markRead: markRead, refreshBadge: refreshBadge
   };
 })(window);

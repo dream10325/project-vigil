@@ -7,6 +7,13 @@
     "hash": "4b2e0101ab28c16fda85df171d7c6780890997c3a390e4793977cde0cb844cdd"
   },
   {
+    "id": "Snake",
+    "codename": "蛇",
+    "batch": 1,
+    "salt": "9944a18f4bee9a452ac02b119bee6366",
+    "hash": "8c95142596a74392929b5fba6bac81e470a9a3b036e5483387e197b6dae6ff2c"
+  },
+  {
     "id": "Goat",
     "codename": "羊",
     "batch": 2,
@@ -14,10 +21,37 @@
     "hash": "c79a8c23e578c3f0b423d767214de9817595c3f650c259b389180146e0acf1c1"
   },
   {
-    "id": "Snake",
-    "codename": "蛇",
-    "batch": 1,
-    "salt": "9944a18f4bee9a452ac02b119bee6366",
-    "hash": "8c95142596a74392929b5fba6bac81e470a9a3b036e5483387e197b6dae6ff2c"
+    "id": "Raccoondog",
+    "codename": "狸",
+    "batch": 2,
+    "salt": "b90aca1fdc0658b9d21fefa3ea6e69c0",
+    "hash": "056270c313813720f759101a3ad5ab5588644b4b566856db330cc4cd5a852dce"
+  },
+  {
+    "id": "Raccoondog",
+    "codename": "狼",
+    "batch": 2
+  },
+  {
+    "id": "Raccoondog",
+    "codename": "兔",
+    "batch": 3
+  },
+  {
+    "id": "Raccoondog",
+    "codename": "鴉",
+    "batch": 3
+  },
+  {
+    "id": "Raccoondog",
+    "codename": "魟",
+    "batch": 3
+  },
+  {
+    "id": "Tapir",
+    "codename": "貘",
+    "batch": 4,
+    "salt": "8516ac4ad9ebbad99533f56e275376bc",
+    "hash": "5f54df609377b6327698820f1384e4b716e5af23f60b15de65b629101b74d43b"
   }
 ]
