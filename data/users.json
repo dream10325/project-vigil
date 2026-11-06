@@ -30,7 +30,9 @@
   {
     "id": "Wolf",
     "codename": "狼",
-    "batch": 2
+    "batch": 2,
+    "salt": "c8fccd3bc065f55e7d02e4ec2c47e63a",
+    "hash": "e474423f24ed1b8111c7edd12f782d485d690181319412a2aa8d22decc5ea869"
   },
   {
     "id": "Rabbit",
