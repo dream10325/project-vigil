@@ -40,12 +40,16 @@
   {
     "id": "Raccoondog",
     "codename": "鴉",
-    "batch": 3
+    "batch": 3,
+    "salt": "49ca0c95ffaafc863782cf89ba1af254",
+    "hash": "6d9d1a9f9c7361c71f734c1d9ba592ec595ea75708efeb8ab926b6249eccf8f4"
   },
   {
     "id": "Raccoondog",
     "codename": "魟",
-    "batch": 3
+    "batch": 3,
+    "salt": "244df6e8cd105a8b5393ca84c35ea1f5",
+    "hash": "3de8373eea175a8e37e2c2f5cfc844a0f69700bcd665aecd68480e2357d28f14"
   },
   {
     "id": "Tapir",
