@@ -37,7 +37,9 @@
   {
     "id": "Rabbit",
     "codename": "兔",
-    "batch": 3
+    "batch": 3,
+    "salt": "a9d92625ac1dc52915af7bedc1759bb3",
+    "hash": "e539ef53610c21478fcf1415c586c6f7b7dcbc5222be33ca0cfeef170eda60dc"
   },
   {
     "id": "Raven",
