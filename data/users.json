@@ -28,24 +28,24 @@
     "hash": "056270c313813720f759101a3ad5ab5588644b4b566856db330cc4cd5a852dce"
   },
   {
-    "id": "Raccoondog",
+    "id": "Wolf",
     "codename": "狼",
     "batch": 2
   },
   {
-    "id": "Raccoondog",
+    "id": "Rabbit",
     "codename": "兔",
     "batch": 3
   },
   {
-    "id": "Raccoondog",
+    "id": "Raven",
     "codename": "鴉",
     "batch": 3,
     "salt": "49ca0c95ffaafc863782cf89ba1af254",
     "hash": "6d9d1a9f9c7361c71f734c1d9ba592ec595ea75708efeb8ab926b6249eccf8f4"
   },
   {
-    "id": "Raccoondog",
+    "id": "Stingray",
     "codename": "魟",
     "batch": 3,
     "salt": "244df6e8cd105a8b5393ca84c35ea1f5",
