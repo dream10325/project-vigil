@@ -14,6 +14,13 @@
     "hash": "8c95142596a74392929b5fba6bac81e470a9a3b036e5483387e197b6dae6ff2c"
   },
   {
+    "id": "squid",
+    "codename": "鰂",
+    "batch": 1,
+    "salt": "d14fd26f7ff23bfaa97c5877a1db602c",
+    "hash": "b3bb71f6715829cb91be84c5234be3cd08994ec2e8de7a2bc1c3c5ba2ffae0cf"
+  },
+  {
     "id": "Goat",
     "codename": "羊",
     "batch": 2,
