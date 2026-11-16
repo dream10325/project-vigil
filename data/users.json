@@ -68,5 +68,12 @@
     "batch": 4,
     "salt": "8516ac4ad9ebbad99533f56e275376bc",
     "hash": "5f54df609377b6327698820f1384e4b716e5af23f60b15de65b629101b74d43b"
+  },
+  {
+    "id": "leopard",
+    "codename": "貔",
+    "batch": 4,
+    "salt": "",
+    "hash": ""
   }
 ]

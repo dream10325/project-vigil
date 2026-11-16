@@ -8,6 +8,6 @@
   { "codename": "兔", "batch": 3, "status": "在職", "photo": "images/gen/rabbit_icon.jpg", "bio": "" },
   { "codename": "鴉", "batch": 3, "status": "在職", "photo": "images/gen/raven_icon.png", "bio": "" },
   { "codename": "魟", "batch": 3, "status": "在職", "photo": "images/gen/stingray_icon.png", "bio": "" },
-  { "codename": "貘", "batch": 4, "status": "在職", "photo": "images/gen/tapir_icon.png", "bio": "" }
+  { "codename": "貘", "batch": 4, "status": "在職", "photo": "images/gen/tapir_icon.png", "bio": "" },
+  { "codename": "貔", "batch": 4, "status": "在職", "photo": "", "bio": "" }
 ]
-  
