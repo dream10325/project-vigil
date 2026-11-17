@@ -2,6 +2,7 @@
   { "codename": "鶴", "batch": 1, "status": "在職", "photo": "", "bio": "" },
   { "codename": "蛇", "batch": 1, "status": "在職", "photo": "", "bio": "" },
   { "codename": "鰂", "batch": 1, "status": "在職", "photo": "", "bio": "" },
+  { "codename": "貂", "batch": 1, "status": "在職", "photo": "", "bio": "" },
   { "codename": "羊", "batch": 2, "status": "在職", "photo": "", "bio": "" },
   { "codename": "狸", "batch": 2, "status": "在職", "photo": "images/gen/raccoondog_icon.png", "bio": "" },
   { "codename": "狼", "batch": 2, "status": "在職", "photo": "images/gen/wolf_icon.png", "bio": "" },
@@ -9,5 +10,7 @@
   { "codename": "鴉", "batch": 3, "status": "在職", "photo": "images/gen/raven_icon.png", "bio": "" },
   { "codename": "魟", "batch": 3, "status": "在職", "photo": "images/gen/stingray_icon.png", "bio": "" },
   { "codename": "貘", "batch": 4, "status": "在職", "photo": "images/gen/tapir_icon.png", "bio": "" },
+  { "codename": "貓", "batch": 4, "status": "在職", "photo": "", "bio": "" },
+  { "codename": "鼠", "batch": 4, "status": "在職", "photo": "", "bio": "" },
   { "codename": "貔", "batch": 4, "status": "在職", "photo": "", "bio": "" }
 ]

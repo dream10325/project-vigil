@@ -14,11 +14,18 @@
     "hash": "8c95142596a74392929b5fba6bac81e470a9a3b036e5483387e197b6dae6ff2c"
   },
   {
-    "id": "squid",
+    "id": "Squid",
     "codename": "鰂",
     "batch": 1,
     "salt": "d14fd26f7ff23bfaa97c5877a1db602c",
     "hash": "b3bb71f6715829cb91be84c5234be3cd08994ec2e8de7a2bc1c3c5ba2ffae0cf"
+  },
+  {
+    "id": "Marten",
+    "codename": "貂",
+    "batch": 1,
+    "salt": "1ea432bb9b83ad0d4c9015b5cfcd0d9b",
+    "hash": "204c6b4909c0e1831f43543942ea8d5da78bc61836d17e819da2bb0247ee094e"
   },
   {
     "id": "Goat",
@@ -70,7 +77,21 @@
     "hash": "5f54df609377b6327698820f1384e4b716e5af23f60b15de65b629101b74d43b"
   },
   {
-    "id": "leopard",
+    "id": "Cat",
+    "codename": "貓",
+    "batch": 4,
+    "salt": "",
+    "hash": ""
+  },
+  {
+    "id": "Rat",
+    "codename": "鼠",
+    "batch": 4,
+    "salt": "",
+    "hash": ""
+  },
+  {
+    "id": "Leopard",
     "codename": "貔",
     "batch": 4,
     "salt": "",
